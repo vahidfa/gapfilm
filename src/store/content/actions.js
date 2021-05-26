@@ -13,6 +13,6 @@ export default (vm) => ({
   async fetchFirstPage({ commit }) {
     const response = await vm.$api.get(FIRST_PAGE);
     commit("setContentList", response.data.result);
-    return response
+    return response;
   },
 });
