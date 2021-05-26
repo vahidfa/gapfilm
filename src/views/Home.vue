@@ -33,8 +33,8 @@
             </template>
           </v-row>
         </template>
-      </v-col> </v-row
-    >message
+      </v-col>
+    </v-row>
     <toast :show.sync="show" :text="error" />
   </div>
 </template>
