@@ -1,0 +1,21 @@
+@import '@/assets/styles/_default.scss';
+img {
+    max-width: 9.25rem;
+    height: 13.75rem;
+    object-fit: cover;
+}
+.col-12 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-align: center;
+}
+span {
+  font-size: $global-font-size-xs;
+  color: $gray-500;
+  display: block;
+}
+p {
+ max-width: 9.25rem;
+}

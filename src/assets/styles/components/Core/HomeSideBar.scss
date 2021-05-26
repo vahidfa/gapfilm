@@ -1,0 +1,12 @@
+@import '@/assets/styles/_default.scss';
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  background-color: $gray-900;
+  a {
+    font-weight: bold;
+    font-size: $global-font-size-xs;
+    padding: 1rem;
+     border-bottom: 1px solid $black;
+  }
+}

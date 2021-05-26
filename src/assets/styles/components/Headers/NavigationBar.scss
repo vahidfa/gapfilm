@@ -1,0 +1,32 @@
+@import '@/assets/styles/_default.scss';
+.navigation {
+  background-image: linear-gradient($gray-800, $gray-900);
+  max-height: 5rem;
+}
+.right-nav {
+  justify-content: flex-end;
+  a {
+    padding: 2rem 2rem;
+    height: 5rem;
+    font-weight: bold;
+    border-left: 1px solid $black;
+  }
+}
+.left-nav {
+  span {
+    font-size: $global-font-size-xs;
+    color: $white;
+    background-color: $red;
+    padding: 0.3rem;
+    height: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  h1 {
+    margin: 1rem;
+    font-size: $global-font-size-xl;
+  }
+}
+.active {
+  background-image: linear-gradient($gray-900, $gray-800);
+  color: $red !important;
+}

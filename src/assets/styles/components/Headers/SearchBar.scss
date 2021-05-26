@@ -1,0 +1,20 @@
+@import '@/assets/styles/_default.scss';
+.header-login, .header-entiries {
+  margin: 1rem;
+  display: inline-block;
+}
+.header-right {
+ text-align: right;
+ position: relative;
+ padding: 1rem;
+ input {
+   border: 1px solid $gray-900;
+   padding: 0.5rem;
+   background-color: $gray-900;
+ }
+}
+.search-icon {
+  position: absolute;
+  color: $red !important;
+  right: 2rem;
+}
